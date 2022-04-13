@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockbuster</title>
+    <meta name="description" content="Site da Bockbuster - sua locadora de filmes">
+    <link rel="shortcut icon" href="imagens/icone.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" title="Blockbuster">
+            <img src="imagens/logo.jpg" alt="Blockbuster">
+        </a>
+
+        <a href="javascript:menu()" class="menu">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" title="Home">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="quem-somos.html" title="Quem Somos">
+                        <i class="fas fa-search"></i>
+                        Quem Somos
+                    </a>
+                </li>
+                <li>
+                    <a href="filmes.html" title="Filmes">
+                        <i class="fas fa-film"></i>
+                        Filmes
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="grid-detalhes">
+            <div class="coluna">
+                <p>
+                    <img src="imagens/foto1.jpg" alt="Foto 1">
+                </p>
+                <p>
+                    <img src="imagens/foto2.jpg" alt="Foto 2">
+                </p>
+                <p>
+                    <img src="imagens/foto3.jpg" alt="Foto 3">
+                </p>
+            </div>
+            <div class="coluna">
+                <h2 class="center">Quem Somos</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid vel suscipit, illum earum ea aspernatur sequi repudiandae, est doloremque ducimus accusamus soluta sint provident. Quo aliquam vel vitae voluptate veritatis!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ea culpa asperiores corrupti! Sapiente aliquid eum beatae deserunt voluptas assumenda recusandae eaque at consectetur quidem! Tempore, repellendus ab. Dolor.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ea culpa asperiores corrupti! Sapiente aliquid eum beatae deserunt voluptas assumenda recusandae eaque at consectetur quidem! Tempore, repellendus ab. Dolor.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ea culpa asperiores corrupti! Sapiente aliquid eum beatae deserunt voluptas assumenda recusandae eaque at consectetur quidem! Tempore, repellendus ab. Dolor.</p>
+            </div>
+        </div>
+        <h2 class="center">Mapa de Localização:</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.5179239820786!2d-52.38274495043901!3d-24.048059284367124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ed754065a8b977%3A0xe05498dfe2d96fea!2sAv.%20Irm%C3%A3os%20Pereira%2C%20670%20-%20Centro%2C%20Campo%20Mour%C3%A3o%20-%20PR%2C%2087301-010!5e0!3m2!1spt-BR!2sbr!4v1648597191789!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+    <footer>
+        <p class="center">Desenvolvido por Vinícius Alves</p>
+        <p class="center">
+            <a href="https://www.facebook.com/vinicius.alvesii.98/" title="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/vinicius_alvesii/" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/vin%C3%ADcius-garcia-alves-a675b021b/" title="Instagram">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/vinao-alt" title="Instagram">
+                <i class="fab fa-github"></i>
+            </a>
+        </p>
+    </footer>
+
+    <script>
+        //funcao chamada menu
+        function menu() {
+            document.querySelector("nav").classList.toggle("mobile");
+        }
+    </script>    
+</body>
+</html>

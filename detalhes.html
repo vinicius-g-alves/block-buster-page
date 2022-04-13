@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockbuster</title>
+    <meta name="description" content="Site da Bockbuster - sua locadora de filmes">
+    <link rel="shortcut icon" href="imagens/icone.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" title="Blockbuster">
+            <img src="imagens/logo.jpg" alt="Blockbuster">
+        </a>
+
+        <a href="javascript:menu()" class="menu">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" title="Home">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="quem-somos.html" title="Quem Somos">
+                        <i class="fas fa-search"></i>
+                        Quem Somos
+                    </a>
+                </li>
+                <li>
+                    <a href="filmes.html" title="Filmes">
+                        <i class="fas fa-film"></i>
+                        Filmes
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="grid-detalhes">
+            <div class="coluna">
+                <img src="imagens/001.jpg" alt="Batman">
+            </div>
+            <div class="coluna">
+                <h2 class="center">Batman</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid vel suscipit, illum earum ea aspernatur sequi repudiandae, est doloremque ducimus accusamus soluta sint provident. Quo aliquam vel vitae voluptate veritatis!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ea culpa asperiores corrupti! Sapiente aliquid eum beatae deserunt voluptas assumenda recusandae eaque at consectetur quidem! Tempore, repellendus ab. Dolor.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ea culpa asperiores corrupti! Sapiente aliquid eum beatae deserunt voluptas assumenda recusandae eaque at consectetur quidem! Tempore, repellendus ab. Dolor.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus unde ea culpa asperiores corrupti! Sapiente aliquid eum beatae deserunt voluptas assumenda recusandae eaque at consectetur quidem! Tempore, repellendus ab. Dolor.</p>
+
+                <h2 class="center">Trailer do Filme</h2>
+                <iframe width="100%" height="659" src="https://www.youtube.com/embed/HJv4LQxbVEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="center">Desenvolvido por Vinícius Alves</p>
+        <p class="center">
+            <a href="https://www.facebook.com/vinicius.alvesii.98/" title="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/vinicius_alvesii/" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/vin%C3%ADcius-garcia-alves-a675b021b/" title="Instagram">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/vinao-alt" title="Instagram">
+                <i class="fab fa-github"></i>
+            </a>
+        </p>
+    </footer>
+
+    <script>
+        //funcao chamada menu
+        function menu() {
+            document.querySelector("nav").classList.toggle("mobile");
+        }
+    </script>    
+</body>
+</html>
